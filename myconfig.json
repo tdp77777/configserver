@@ -1,11 +1,12 @@
 {  
   "name":"foo",
   "profiles":[  
-     "development"
+     "development123"
   ],
   "label":null,
   "version":"a611374438e75aa1b9808908c57833480944e1a8",
   "state":null,
+  "myproperty": "test 123",
   "propertySources":[  
      {  
         "name":"https://github.com/spring-cloud-samples/config-repo/foo-development.properties",
