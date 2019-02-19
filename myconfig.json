@@ -1,16 +1,20 @@
 {  
-  "name":"foo",
+  "name":"foo123",
   "profiles":[  
      "development123"
   ],
   "label":null,
   "version":"a611374438e75aa1b9808908c57833480944e1a8",
   "state":null,
-  "myproperty": "test 123",
   "propertySources":[  
      {  
         "name":"https://github.com/spring-cloud-samples/config-repo/foo-development.properties",
         "source":{  
+            "ProvistaAppSupport_DB_UserName": "local-user-123",
+            "ProvistaAppSupport_DB_Password": "local-password-123",
+            "ConnectionStrings": {
+            "ProvistaAppSupport_DB": "Server=server123;Database=DB123;Trusted_Connection=True;"
+            },            
            "bar":"spam",
            "foo":"from foo development"
         }
@@ -32,11 +36,7 @@
         }
      }
   ],
-  "ProvistaAppSupport_DB_UserName": "local-user-123",
-  "ProvistaAppSupport_DB_Password": "local-password-123",
-  "ConnectionStrings": {
-    "ProvistaAppSupport_DB": "Server=server123;Database=DB123;Trusted_Connection=True;"
-  } 
+
 }
 
 
