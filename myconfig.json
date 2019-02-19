@@ -1,11 +1,44 @@
-{
-    "ProvistaAppSupport_DB_UserName": "local-user-123",
-  
-    "ProvistaAppSupport_DB_Password": "local-password-123",
-  
-    "ConnectionStrings": {
-      "ProvistaAppSupport_DB": "Server=server123;Database=DB123;Trusted_Connection=True;"
-    }  
-  
-  }
+{  
+  "name":"foo",
+  "profiles":[  
+     "development"
+  ],
+  "label":null,
+  "version":"a611374438e75aa1b9808908c57833480944e1a8",
+  "state":null,
+  "propertySources":[  
+     {  
+        "name":"https://github.com/spring-cloud-samples/config-repo/foo-development.properties",
+        "source":{  
+           "bar":"spam",
+           "foo":"from foo development"
+        }
+     },
+     {  
+        "name":"https://github.com/spring-cloud-samples/config-repo/foo.properties",
+        "source":{  
+           "foo":"from foo props",
+           "democonfigclient.message":"hello spring io"
+        }
+     },
+     {  
+        "name":"https://github.com/spring-cloud-samples/config-repo/application.yml (document #0)",
+        "source":{  
+           "info.description":"Spring Cloud Samples",
+           "info.url":"https://github.com/spring-cloud-samples",
+           "eureka.client.serviceUrl.defaultZone":"http://localhost:8761/eureka/",
+           "foo":"baz"
+        }
+     }
+  ],
+  "ProvistaAppSupport_DB_UserName": "local-user-123",
+  "ProvistaAppSupport_DB_Password": "local-password-123",
+  "ConnectionStrings": {
+    "ProvistaAppSupport_DB": "Server=server123;Database=DB123;Trusted_Connection=True;"
+  } 
+}
+
+
+
+
   
