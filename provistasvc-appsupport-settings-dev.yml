@@ -1,4 +1,4 @@
- msg: Hello world - this is from config server – DEV environment.
- ProvistaAppSupport_DB_UserName: D-user-123
- ProvistaAppSupport_DB_Password: D-password-123
- ProvistaAppSupport_DB: Server=Dserver123;Database=DB123;Trusted_Connection=True;
+ msg: Hello world - this is from config server – DEV 456 environment.
+ ProvistaAppSupport_DB_UserName: D-user-456
+ ProvistaAppSupport_DB_Password: D-password-456
+ ProvistaAppSupport_DB: Server=Dserver456;Database=DB123;Trusted_Connection=True;
